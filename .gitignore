@@ -1,3 +1,48 @@
-lid.176.bin
-*.warc*
-warc.paths
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 项目特定
+*.bin
+output/
+models/
+chinese_docs/
+htmls/
+vector_data/
+checkpoints/
+jina/
+filtered_sensitive/
+filtered_text/
+2201.06642v1.pdf
+软件工程理论与实践2025课程设计要求V1.docx
+filter.py
+embed.py
+requirements.txt
+
+# 系统
+.DS_Store
+Thumbs.db 
