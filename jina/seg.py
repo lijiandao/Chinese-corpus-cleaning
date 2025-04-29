@@ -9,7 +9,7 @@ def seg_sentence(content):
     url = 'https://api.jina.ai/v1/segment'
     headers = {
         'Content-Type': 'application/json',
-        'Authorization': 'Bearer jina_08350691d80142148f8b7140601a938amMxPGNPHeRnOlAALv1CPS-p9kzEw'
+        # 'Authorization': 'Bearer XXXXPHeRnOlAALv1CPS-p9kzEw'
     }
     data = {
         "content": content,
